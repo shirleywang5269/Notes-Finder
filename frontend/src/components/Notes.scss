@@ -1,0 +1,47 @@
+.container-notes {
+  padding: 30pt;
+
+  header {
+    margin-bottom: 20pt;
+  }
+
+  .note-columns {
+    display: flex;
+    .notes {
+      font-size: 30pt;
+      width: 70%;
+      padding: 20pt;
+
+      .noteText {
+        font-size: 16pt;
+      }
+
+      .highlighted-word {
+        background: red;
+        cursor: pointer;
+        color: white;
+      }
+    }
+
+    .note-timeline {
+      border-left: black 10pt;
+      padding: 30pt;
+      background: beige;
+      width: 30%;
+
+      h3 {
+        text-align: center;
+      }
+
+      ul {
+        font-size: 20pt;
+
+        li {
+          padding: 4pt;
+          list-style-type: none;
+        }
+      }
+
+    }
+  }
+}
